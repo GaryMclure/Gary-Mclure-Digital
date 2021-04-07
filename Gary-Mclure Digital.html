@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <!-- CSS custom -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Gary Mclure</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar shadow navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Gary Mclure</a>
+        <div class="right-side-nav">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Launch screen -->
+    <section class="first">
+      <div class="container top-container">
+        <img
+          class="img-fluid profile-pic"
+          src="assets/profile.jpg"
+          alt="Profile"
+        />
+        <h1 class="name">Gary Mclure</h1>
+        <h5>
+          Hello I am
+          <span class="sd">Currently pursuing AWS Cloud Practitioner Certification</span>
+        </h5>
+        <div class="icon-container">
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href=""><i class="far fa-envelope"></i></a>
+        </div>
+        <div id="about"></div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about">
+      <div class="container">
+        <h1 class="text-center">About</h1>
+        <div class="custom-hr"></div>
+        <div class="row about-me">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid about-me-img"
+              src="assets/aboutMe.svg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6 text-container">
+            <p>
+              My name is Gary Mclure and  I am an entry-level professional looking to change career to IT. 
+			  During my course with prime talent, I have developed an understanding for python and Linux. 
+			  Have knowledge about database and networking through completing tasks and research. 
+			  I am a highly self-driven and self-motivated person always seeking to challenge and better myself.
+            </p>
+            <p>
+              I am looking for a challenging, fast-paced environment within cloud 
+			  to utilize my technical knowledge and develop my technical skill set further.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="skills"></div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills">
+      <div class="container">
+        <h1 class="text-center">Skills</h1>
+        <div class="custom-hr"></div>
+        <div class="skills-container">
+          <div class="skills-card shadow">
+            <i class="fab fa-html5"></i>
+            <p>AWS</p>
+          </div>
+          <div class="skills-card shadow">
+            <i class="fab fa-css3"></i>
+            <p>python</p>
+          </div>
+          <div class="skills-card shadow">
+            <i class="fab fa-js-square"></i>
+            <p>database</p>
+          </div>
+          <div class="skills-card shadow">
+            <i class="fab fa-react"></i>
+            <p>Linux</p>
+          </div>
+          <div class="skills-card shadow">
+            <i class="fab fa-java"></i>
+            <p>Java</p>
+          </div>
+          <div class="skills-card shadow">
+            <i class="fab fa-php"></i>
+            <p>Java</p>
+          </div>
+        </div>
+        <div id="projects"></div>
+      </div>
+    </section>
+
+    <section>
+      <h1 class="text-center mt-5">Experience</h1>
+      <ul class="timeline">
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag">Tax Consultant.</span>
+              <span class="time-wrapper"
+                ><span class="time">Nov 2014</span></span
+              >
+            </div>
+            <div class="desc">
+              Duties included Answering calls to customers, Meeting target call   
+			  numbers set for the day, making sure the customers question was answered with as much detail as needed and that they fully understood the answer, 
+			  calculating tax allowances, replying to mail. 
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag">customer service assistant.</span>
+              <span class="time-wrapper"
+                ><span class="time">Sep 2012</span></span
+              >
+            </div>
+            <div class="desc">
+              September 2012 to June 2013 – Customer Service Assitant – ASDA.
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexa"></span>
+              <span class="flag">Education.</span>
+              <span class="time-wrapper"
+                ><span class="time">July 2014</span></span
+              >
+            </div>
+            <div class="desc">
+             City of Glasgow College – HNC in 3D Animation.
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects container -->
+    <section class="projects">
+      <h1 class="text-center">WIP</h1>
+      <div class="custom-hr"></div>
+      <div class="container">
+        <div class="card-container">
+          <div class="project-card shadow">
+            <img
+              class="project-image img-fluid"
+              src="assets/projects/project1.png"
+              alt=""
+            />
+            <h3 class="text-center mt-4">N/A</h3>
+            <div class="custom-hr mb-3 w-50"></div>
+            <p class="text-center pb-3">
+              ///
+            </p>
+          </div>
+          <div class="project-card shadow">
+            <img
+              class="project-image img-fluid"
+              src="assets/projects/project2.png"
+              alt=""
+            />
+            <h3 class="text-center mt-4">N/A</h3>
+            <div class="custom-hr mb-3 w-50"></div>
+            <p class="text-center pb-3">
+              ///
+            </p>
+          </div>
+          <div class="project-card shadow">
+            <img
+              class="project-image img-fluid"
+              src="assets/projects/project3.png"
+              alt=""
+            />
+            <h3 class="text-center mt-4">N/A</h3>
+            <div class="custom-hr mb-3 w-50"></div>
+            <p class="text-center pb-3">
+              ///
+            </p>
+          </div>
+          <div class="project-card shadow">
+            <img
+              class="project-image img-fluid"
+              src="assets/projects/project4.png"
+              alt=""
+            />
+            <h3 class="text-center mt-4">N/A</h3>
+            <div class="custom-hr mb-3 w-50"></div>
+            <p class="text-center pb-3">
+              ///
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="icon-container">
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href=""><i class="far fa-envelope"></i></a>
+        </div>
+        <p class="text-footer">Gary Mclure © 2021</p>
+      </div>
+    </section>
+  </body>
+</html>
